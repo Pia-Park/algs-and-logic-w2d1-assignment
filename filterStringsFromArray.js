@@ -2,7 +2,7 @@
 // integers and strings and return a new array without the strings.
 
 const filterArray = function(arr) {
-    return arr.filter(arr => typeof arr == "number")
+    return arr.filter(arr => typeof arr == "number");
 }
 
 // console.log(filterArray([1, 2, "a", "b"])); 
@@ -11,5 +11,5 @@ const filterArray = function(arr) {
 // console.log(filterArray([1, "a", "b", 0, 15])); 
 // ➞ [1, 0, 15]
 
-console.log(filterArray([1, 2, "aasf", "1", "123", 123])); 
+// console.log(filterArray([1, 2, "aasf", "1", "123", 123])); 
 //➞ [1, 2, 123]

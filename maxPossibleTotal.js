@@ -10,7 +10,8 @@ const maxTotal = function(arr) {
     return result;
 }
 
-// console.log(maxTotal([1, 1, 0, 1, 3, 10, 10, 10, 10, 1])); 
+
+console.log(maxTotal([1, 1, 0, 1, 3, 10, 10, 10, 10, 1])); 
 //➞ 43
 
 // console.log(maxTotal([0, 0, 0, 0, 0, 0, 0, 0, 0, 100])); 
